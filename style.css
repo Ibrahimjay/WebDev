@@ -1,0 +1,107 @@
+body{
+    border-radius: 12px;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    margin: 2px;
+    margin-top: 12px;
+    margin-left: 12px;
+    /* margin-right: 12px; */
+}
+h1{
+    
+    padding-left: 10px;
+    
+}
+
+h2{
+    margin-left: 15px;
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 17px;
+}
+p{
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;   
+}
+tr{
+    border-bottom: 1px solid  rgb(224, 223, 223);
+}
+td{
+    padding: 12px;
+    padding-left: 30px;
+}
+tbody>tr>:nth-child(2){
+    color: hsl(14, 45%, 36%);
+}
+li{
+    padding: 6px;
+    padding-left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+#recipe{
+    padding-left: 10px;
+}
+
+#preparation{
+    width: auto;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 5px;
+    margin-left: 15px;
+    background-color:rgb(255, 247, 252);
+}
+
+
+#table_par{
+    padding-left: 18px;
+}
+
+.line{
+    border-bottom: 1px solid rgb(224, 223, 223);
+    margin-left: 26px;
+    margin-right: 26px;
+    border-right: 26px;
+    padding-right: 26px;
+   
+    width: 100%;
+
+}
+
+.colourNumbers{
+    list-style-type: none;
+}
+
+.colourNumbers ol{
+    margin-left: 2em;
+
+}
+.colourNumbers li{
+    counter-increment: count-me;
+}
+.colourNumbers li::before{
+    content: counter(count-me) '.';
+    display: block;
+    position: relative;
+    max-width: 0px;
+    max-height: 0px;
+    left: -1.3em;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    
+}
